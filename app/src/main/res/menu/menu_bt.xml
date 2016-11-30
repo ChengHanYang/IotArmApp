@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.sam.test1110.MainActivity"><![CDATA[
+        >
+        ]]>
+    <item android:id="@+id/connect" android:title="connect"
+
+        app:showAsAction="always" android:icon="@drawable/bt_action_name"/>
+    <item android:title="@string/reorganize"
+            android:orderInCategory="100"
+            android:id="@+id/reorganize"
+            app:showAsAction="never"/>
+    <item android:title="@string/inputip"
+        android:orderInCategory="100"
+        android:id="@+id/input"
+        app:showAsAction="never"/>
+        <item android:title="@string/disconnect"
+        android:orderInCategory="100"
+        android:id="@+id/disconnect"
+        app:showAsAction="never"/>
+        <item android:title="@string/wifi"
+            android:orderInCategory="100"
+            android:id="@+id/wifi"
+            app:showAsAction="never"/>
+        <item android:title="@string/shutdown"
+            android:orderInCategory="100"
+            android:id="@+id/shutdown"
+            app:showAsAction="never"/>
+    </menu>

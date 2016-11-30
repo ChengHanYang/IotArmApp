@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">監控APP</string>
+    <string name="reorganize">重新整理</string>
+    <string name="bluetooth">藍芽操作</string>
+    <string name="disconnect">藍芽斷線</string>
+    <string name="wifi">wifi操作</string>
+    <string name="inputip">輸入IP</string>
+    <string name="shutdown">關閉程式</string>
+
+
+
+
+</resources>

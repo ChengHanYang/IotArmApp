@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sam.test1110.MainActivity">
+    >
+    <item android:title="@string/inputip"
+        android:orderInCategory="100"
+        android:id="@+id/input"
+        app:showAsAction="never"/>
+    <item android:title="@string/reorganize"
+          android:orderInCategory="100"
+          android:id="@+id/reorganize"
+          app:showAsAction="never"/>
+
+    <item android:title="@string/bluetooth"
+        android:orderInCategory="100"
+        android:id="@+id/bluetooth"
+        app:showAsAction="never"/>
+
+    <item android:title="@string/shutdown"
+          android:orderInCategory="100"
+          android:id="@+id/shutdown"
+          app:showAsAction="never"/>
+</menu>
